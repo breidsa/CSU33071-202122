@@ -1,0 +1,14 @@
+
+## Group 26
+
+## - Filip Kowalski	
+## - Khushboo Jain
+
+## Valid: No
+
+## Description: invalid string literal no end quote
+
+void main() {
+    string myString;
+    myString = "thereisnoendquote;
+}

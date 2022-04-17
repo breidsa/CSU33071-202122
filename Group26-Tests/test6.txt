@@ -1,0 +1,30 @@
+## Group 26
+
+## - Filip Kowalski
+## - Khushboo Jain
+
+## Valid: No
+## Description: x doesn't exist under struct pressi so it cannot assign value
+
+ struct press{
+  int x, int y
+}
+
+ struct pressi{
+  int d, int w
+}
+
+
+bool main(){
+  pressi a;
+  a.x =0;
+  int b;
+  b=2;
+  }
+ 
+
+ int hold(){
+  int a;
+  a=0;
+}
+

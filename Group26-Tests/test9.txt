@@ -1,0 +1,22 @@
+## Group 26
+
+## - Filip Kowalski
+## - Khushboo Jain
+
+## Valid: No
+## Description: Use of non declared variable  
+
+bool main(){
+ int a;
+ a=1;
+ int b;
+ b=2;
+ int c;
+ d=3;
+
+ if(a<b and b<c){
+ return true;
+ }
+
+}
+
