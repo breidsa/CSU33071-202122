@@ -1,0 +1,25 @@
+## Group 26
+
+## - Filip Kowalski
+## - Khushboo Jain
+
+## Valid: Yes
+## Description: Multi-level struct usage 
+
+struct check{
+ string c, string a
+}
+
+struct multi{
+ check u , check i
+}
+
+struct map{
+  multi n, multi m
+} 
+
+void main(){
+   map test;
+   test.n.i.a="testing";
+
+}

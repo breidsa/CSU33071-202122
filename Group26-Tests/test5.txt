@@ -1,0 +1,20 @@
+
+## Group 26
+
+## - Filip Kowalski	
+## - Khushboo Jain
+
+## Valid: Yes
+
+## Description: valid boolean statements in for loops and if statements
+
+void main() {
+    int i;
+    int x;
+    x = 10
+    for (i = 0; i < (x + (10 - i)); i = i + 1;) {
+        if (x == 10) {
+            printf(i);
+        }
+    } 
+}

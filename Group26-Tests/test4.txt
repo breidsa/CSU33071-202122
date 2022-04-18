@@ -1,0 +1,29 @@
+
+## Group 26
+
+## - Filip Kowalski	
+## - Khushboo Jain
+
+## Valid: No
+
+## Description: variable outside of scope
+
+void main() {
+    int num1;
+    int num2;
+    int addedNum;
+
+    num1 = 2;
+    num2 = 3;
+    addedNum = add(num1, num2);
+}
+
+int add(int a, int b) {
+    int c;
+    c = a + b;
+
+    //this variable is not in scope
+    addedNum = 12;
+
+    return c;
+}
