@@ -1,0 +1,36 @@
+## Group 29
+
+## - Anneliese Breidsprecher
+## - Emma Sabbadini 
+
+## Valid: Yes
+
+## Description: Program with both structs and functions
+
+
+Struct Comp{
+	int Grade;
+}
+
+string stringFunc(){
+	string x;
+	string y;
+	string z;
+
+	x = Compiler
+	y = Design
+
+	z = x + y;
+	return z;
+}
+
+void main(){
+	string x;
+	x = stringFunc();
+
+	int idk;
+	idk = x.Grade;
+
+	printf(x.Grade);
+}
+	

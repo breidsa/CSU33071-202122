@@ -1,0 +1,15 @@
+## Group 29
+
+## - Anneliese Breidsprecher
+## - Emma Sabbadini 
+
+## Valid: No
+
+## Description: For loop syntax is wrong, ++ does not exist in the Toy language.
+
+void main() {
+	int x;
+	for(x = 0; x < 10; x++){
+		printf(x);
+	}
+}

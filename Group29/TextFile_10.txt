@@ -1,0 +1,11 @@
+## Group 29
+
+## - Anneliese Breidsprecher
+## - Emma Sabbadini 
+
+## Valid: No
+
+## Description: Needs at least one function
+
+string x;
+int y;

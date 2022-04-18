@@ -1,0 +1,39 @@
+## Group 29
+
+## - Anneliese Breidsprecher
+## - Emma Sabbadini 
+
+## Valid: Yes
+
+## Description: Functions that contain other function calls
+
+
+void main(){
+	int x;
+	x = -7
+
+	int a;
+	a = func2(x);
+	printf(a);
+}
+
+int func1(int x){
+	int y;
+	int z;
+	y = 4;
+	z = x + y;
+	return z;
+}
+
+int func2(int x){
+	z = func(x);
+	int a;
+	if (z > 0){
+		a = -z;
+	}
+	else {
+		a = z;
+	}
+	return a;
+
+		

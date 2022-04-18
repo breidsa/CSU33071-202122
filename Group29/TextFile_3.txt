@@ -1,0 +1,20 @@
+## Group 29
+
+## - Anneliese Breidsprecher
+## - Emma Sabbadini 
+
+## Valid: No
+
+## Description: Can't redefine a function, no overloading
+
+
+
+int func(int x, int y){
+	int z;
+	z = x + y;
+	return x;
+}
+
+string func(string x){
+	return x;
+}
