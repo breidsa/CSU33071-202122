@@ -1,0 +1,17 @@
+## Group 29
+
+## - Anneliese Breidsprecher
+## - Emma Sabbadini 
+
+## Valid: No
+
+## Description: Int assignment happens in the same line as declaration. 
+
+void toyFunction(int x, int y){
+	int z = 3; 
+	y = z + x;
+	printf(y);
+}
+
+
+	

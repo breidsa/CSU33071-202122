@@ -1,0 +1,17 @@
+## Group 29
+
+## - Anneliese Breidsprecher
+## - Emma Sabbadini 
+
+## Valid: Yes
+
+## Description: Simple if statement with no else statement
+
+
+
+void main(){
+	int x;
+	if (x == 3){
+		printf(x);
+	}
+}

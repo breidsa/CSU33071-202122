@@ -1,0 +1,19 @@
+## Group 29
+
+## - Anneliese Breidsprecher
+## - Emma Sabbadini 
+
+## Valid: No
+
+## Description: Structs can only contain declarations
+
+struct AStruct{
+	int x;
+	int y;
+	int x;
+
+	y = x - z;
+}
+
+
+	

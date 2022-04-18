@@ -1,0 +1,16 @@
+## Group 29
+
+## - Anneliese Breidsprecher
+## - Emma Sabbadini 
+
+## Valid: No
+
+## Description: For loop iterator cannot be a bool, x cannot be assigned to a boolean keyword
+
+
+void main(){
+	int x;
+	for(x = TRUE; x > 0; x = x + 1) {
+		printf(x)
+	}
+}

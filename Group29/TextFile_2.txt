@@ -1,0 +1,27 @@
+## Group 29
+
+## - Anneliese Breidsprecher
+## - Emma Sabbadini 
+
+## Valid: Yes
+
+## Description: If statements are formatted correctly, function w/ return type bool actually returns bool.
+
+
+bool foo(int x, int y, int z) {
+
+	if (x == y) {
+		z = x + y;
+	}
+	else {
+		z = x - y;
+	}
+	
+	bool returnVal;
+	if (z > 0){
+		return TRUE;
+	}
+	else {
+		return FALSE;
+	}
+}
